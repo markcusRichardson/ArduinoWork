@@ -35,6 +35,7 @@ TBlendType currentBlending;
 
 
 
+
 //Rf
 bool onOffState = false;  // Boolean for System power on and off (Attaches to interupt)
 bool lockUnlockState = false; // Boolean for locking and unlocking (Attaches to interupt)
@@ -43,7 +44,6 @@ int countLights = 1;  // Int for switiching between modes (Attaches to interupt)
 int OnOffPin = 2; // On off pin interrupt
 int lockUnlockPin = 3;  // lock unlock pin interrupt
 int lightSensor = 4;  //  light sensor interrupt
-
 
 
 
